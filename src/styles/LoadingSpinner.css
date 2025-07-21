@@ -1,0 +1,15 @@
+.loading-spinner {
+  text-align: center;
+  padding: 40px;
+  color: #636e72;
+}
+
+.spinner-icon {
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

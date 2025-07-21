@@ -1,0 +1,14 @@
+/* Optional global reset (already in App.css) */
+html, body, #root {
+  height: 100%;
+}
+
+/* Optional styles for scrollbars or general rules */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}

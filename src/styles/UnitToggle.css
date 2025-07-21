@@ -1,0 +1,46 @@
+.unit-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 16px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.unit-toggle span {
+  font-weight: 600;
+  color: #636e72;
+  transition: color 0.3s ease;
+}
+
+.unit-toggle span.active {
+  color: #0984e3;
+}
+
+.toggle-button {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background: #ddd;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggle-slider {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: white;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-slider.fahrenheit {
+  transform: translateX(25px);
+}
